@@ -1,0 +1,14 @@
+﻿@model IEnumerable<Anothermvc.Models.PersonDetail>
+
+@{
+    ViewBag.Title = "Check";
+}
+
+<h2>Check</h2>
+@using (Html.BeginForm())
+{
+    @Html.EditorForModel()
+    <br />
+    <input type="submit" value="Submit" />
+}
+

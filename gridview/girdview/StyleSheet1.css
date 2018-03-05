@@ -1,0 +1,39 @@
+﻿body {
+    margin :0 auto;
+    width:980px;
+}
+.heading{
+    background-color:aqua;
+    margin-bottom:10px;
+}
+.container{
+
+}
+.leftsidebar{
+    float:left;
+	clear:left;
+	width:25%;
+	background-color:darkgreen;
+    overflow:hidden;
+}
+.leftsidebar ul{
+    margin:0;
+    padding:0;
+}
+.leftsidebar ul li {
+    list-style:none;
+    border-bottom:1px solid black;
+    padding: 10px;
+    
+}
+.leftsidebar ul li a{
+    text-decoration:none;
+}
+.leftsidebar ul li :hover{
+    color:brown;
+}
+
+.rightsidebar{
+    float: right;
+width: 74%;
+}

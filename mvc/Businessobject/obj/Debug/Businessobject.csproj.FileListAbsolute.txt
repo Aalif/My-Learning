@@ -1,0 +1,10 @@
+G:\learning\mvc\Businessobject\bin\Debug\Businessobject.dll
+G:\learning\mvc\Businessobject\bin\Debug\Businessobject.pdb
+G:\learning\mvc\Businessobject\obj\Debug\Businessobject.dll
+G:\learning\mvc\Businessobject\obj\Debug\Businessobject.pdb
+G:\learning\mvc\Businessobject\obj\Debug\Businessobject.csprojResolveAssemblyReference.cache
+G:\learning\mvc\Businessobject\bin\Debug\Businessobject.dll.config
+G:\learning\mvc\Businessobject\bin\Debug\EntityFramework.dll
+G:\learning\mvc\Businessobject\bin\Debug\EntityFramework.SqlServer.dll
+G:\learning\mvc\Businessobject\bin\Debug\EntityFramework.xml
+G:\learning\mvc\Businessobject\bin\Debug\EntityFramework.SqlServer.xml

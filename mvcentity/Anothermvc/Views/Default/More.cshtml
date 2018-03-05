@@ -1,0 +1,20 @@
+﻿@model Anothermvc.Models.typesmore
+
+@{
+    ViewBag.Title = "More";
+}
+
+<h2>More</h2>
+
+    @using (Html.BeginForm())
+    {
+        foreach (var f in Model.persondetail)
+        {
+            <div class="radio">
+                @Html.RadioButtonFor(m => m.getdetails, f.id)
+                @f.name
+            </div>
+        }
+        <input type="submit" value="submit" class="btn"/>
+    }
+

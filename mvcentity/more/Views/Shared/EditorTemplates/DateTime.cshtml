@@ -1,0 +1,7 @@
+﻿@model DateTime?
+@{
+    ViewBag.Title = "DateTime";
+}
+@Html.TextBox("", (Model.HasValue ? Model.Value.ToString("dd/MM/yyyy") : string.Empty), new { @class = "date" })
+
+

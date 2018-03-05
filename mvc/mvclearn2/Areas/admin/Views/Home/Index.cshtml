@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>This is admin index area</h2>
+<table class="table table-bordered">
+    <tr>
+        <td>
+            @Html.ActionLink("Go to Main page", "Index", "Home", new { area = "" }, null)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            @Html.ActionLink("Go to Employee", "Index", "Home", new { area = "employee" }, null)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            @Html.ActionLink("Go to Employeer", "Index", "Home", new { area = "employeer" }, null)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            @Html.ActionLink("Go to Admin", "Index", "Home", new { area = "admin" }, null)
+        </td>
+    </tr>
+</table>
+

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="learnModelStoreContainer" CdmEntityContainer="learnEntities">
+    <EntitySetMapping Name="PersonDetails">
+      <EntityTypeMapping TypeName="learnModel.PersonDetail">
+        <MappingFragment StoreEntitySet="PersonDetails">
+          <ScalarProperty Name="IsSelected" ColumnName="IsSelected" />
+          <ScalarProperty Name="higesteducation" ColumnName="higesteducation" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="age" ColumnName="age" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

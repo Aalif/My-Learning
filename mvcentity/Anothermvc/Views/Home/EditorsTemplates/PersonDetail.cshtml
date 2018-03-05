@@ -1,0 +1,15 @@
+﻿@model Anothermvc.Models.PersonDetail
+
+@{
+    ViewBag.Title = "PersonDetail";
+}
+
+<h2>PersonDetail</h2>
+
+@Html.HiddenFor(x => x.id)
+@Html.HiddenFor(x => x.name)
+
+@Html.CheckBoxFor(x => x.IsSelected)
+
+@Html.DisplayFor(x => x.name)
+

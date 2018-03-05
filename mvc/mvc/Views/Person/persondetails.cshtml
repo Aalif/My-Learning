@@ -1,0 +1,13 @@
+﻿@model mvc.Models.person
+
+@{
+    ViewBag.Title = "persondetails";
+}
+
+<h1>My personal details information</h1>
+<h2>id = @Model.EmployeeId</h2> 
+<h2>Name = @Model.Name</h2> 
+<h2>gender = @Model.Gender</h2> 
+<h2>city = @Model.City</h2> 
+<h1>@Html.ActionLink("Back To Employee","Index", new { did = Model.DepartmentId})</h1>
+

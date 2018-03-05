@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@Html.TextBox("Txtbox", string.Empty, new { @class = "form-control" })
+@Html.DropDownList("gender", new List<SelectListItem> {
+    new SelectListItem { Text = "rahim", Value = "karim" },
+        new SelectListItem { Text = "karim", Value = "rahim" }
+   },
+   "select gender",new { @class="form-control"}
+   )
+@Html.DropDownList("PersonDetail",
+    (IEnumerable<SelectListItem>)ViewBag.PersonDetail,
+   "select gender", new { @class = "form-control" }
+   )
+<br />
+
+
+
+

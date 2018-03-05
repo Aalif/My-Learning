@@ -1,0 +1,217 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap Tutorial</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="customcss.css" rel="stylesheet" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <br />
+        <br />
+        <div class="row jumbotron">
+            <div class="col-md-6">
+                <img class="img-fluid img-thumbnail" src="images/image.jpg" alt="Here is the images" />
+            </div>
+            <div class="col-md-6 col-lg-6">
+                <h3>Here the image is responsive and so on</h3>
+                <p>
+                    In publishing and graphic design, lorem ipsum is a filler text or greeking commonly used to demonstrate
+                    the textual elements of a graphic document or visual presentation. Replacing meaningful content with placeholder text allows designers to design the form of the content before the content itself has been produced.
+                </p>
+                <button class="btn btn-primary"><i class="fa fa-home" aria-hidden="true"></i>More</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <h1>Here goes the menu</h1>
+                <div class="list-group">
+                    <a class="list-group-item list-group-item-primary" href="#">List Here</a>
+                    <a class="list-group-item">List Here</a>
+                    <a class="list-group-item">List Here</a>
+                    <a class="list-group-item">List Here</a>
+                    <a class="list-group-item">List Here</a>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card">
+                    <div class="card-header">
+                        <a class="btn btn-primary" href="#imagecollapse" data-toggle="collapse" aria-expanded="true">Toggle image</a>
+                    </div>
+                    <div class="card-body show" id="imagecollapse">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6">
+                                <a class="card" href="images/37F60FD200000578-0-image-a-5_1473156426673.jpg" alt="images" target="_blank">
+                                    <p>Image Caption goes here</p>
+                                    <img class="img-fluid" src="images/37F60FD200000578-0-image-a-5_1473156426673.jpg" alt="images" />
+                                </a>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <a class="card" href="images/butterfly-1390152.jpg" alt="images" target="_blank">
+                                    <p>Image Caption goes here</p>
+                                    <img class="img-fluid" src="images/butterfly-1390152.jpg" alt="images" />
+                                </a>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <a href="images/enhanced-buzz-1492-1379411828-15.jpg" alt="images" target="_blank" class="card">
+                                    <p>Image Caption goes here</p>
+                                    <img class="img-fluid" src="images/enhanced-buzz-1492-1379411828-15.jpg" alt="images" />
+                                </a>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <a href="images/37F60FD200000578-0-image-a-5_1473156426673.jpg" alt="images" target="_blank" class="card">
+                                    <p>Image Caption goes here</p>
+                                    <img class="img-fluid" src="images/37F60FD200000578-0-image-a-5_1473156426673.jpg" alt="images" />
+                                </a>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <a href="images/butterfly-1390152.jpg" alt="images" target="_blank" class="card">
+                                    <p>Image Caption goes here</p>
+                                    <img class="img-fluid" src="images/butterfly-1390152.jpg" alt="images" />
+                                </a>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <a href="images/index.jpg" alt="images" target="_blank" class="card">
+                                    <p>Image Caption goes here</p>
+                                    <img class="img-fluid" src="images/index.jpg" alt="images" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">Image loading</div>
+                </div>
+                <br />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">This is is the table and it is <span class="badge badge-primary">New</span></h2>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk</p>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Roll</th>
+                                    <th>Class</th>
+                                    <th>Section</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Rahim</td>
+                                    <td>11</td>
+                                    <td>Six</td>
+                                    <td>B</td>
+                                </tr>
+                                <tr>
+                                    <td>Rahim</td>
+                                    <td>11</td>
+                                    <td>Six</td>
+                                    <td>B</td>
+                                </tr>
+                                <tr>
+                                    <td>Rahim</td>
+                                    <td>11</td>
+                                    <td>Six</td>
+                                    <td>B</td>
+                                </tr>
+                                <tr>
+                                    <td>Rahim</td>
+                                    <td>11</td>
+                                    <td>Six</td>
+                                    <td>B</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="card-footer">
+                        This is footer
+                    </div>
+                </div>
+            </div>
+        </div>
+        <form class="form-group row">
+            <div class="col-md-6">
+
+                <label>This is first label</label>
+                <div class="input-group input-group-lg">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">
+                            small
+                        </span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="enter text" />
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label>This is second label</label>
+                <input type="text" class="form-control form-control-lg" />
+            </div>
+        </form>
+        <br />
+
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+</body>
+</html>

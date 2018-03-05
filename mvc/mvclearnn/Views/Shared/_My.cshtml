@@ -1,0 +1,11 @@
+﻿@model mvclearnn.Models.Myemployee
+    <h2>This is partial</h2>
+
+    <div class="thumbnail">
+        <img class="img-responsive" alt="@Model.AlternateText" src="@Url.Content(@Model.Photo)" />
+        <h2>@Model.Name</h2>
+        <p>@Model.City</p>
+        @Html.ActionLink("Edit", "Edit", new { id = @Model.Id })
+        @Html.ActionLink("Details", "Details", new { id = @Model.Id })
+    </div>
+    <br />

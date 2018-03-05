@@ -1,0 +1,14 @@
+﻿@model Anothermvc.Models.addmodelviews
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@using (Html.BeginForm())
+{
+    @Html.ListBoxFor(x => x.selectname,Model.details)
+    <input class="btn-primary" type="submit" value="Submit" />
+}
+
+
